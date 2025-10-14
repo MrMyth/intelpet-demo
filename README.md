@@ -7,5 +7,3 @@
 Исходный код сайта: https://intelpet-demo.lovable.app/ .
 
 Создано с помощью https://lovable.dev/.
-
-Специально для игрового Discord соообщества "From Russia".
