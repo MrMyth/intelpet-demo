@@ -2,6 +2,12 @@ import { Card } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
 import { Badge } from "@/components/ui/badge";
 import { MapPin, Plus, Settings, Camera, Calendar, Users, Heart } from "lucide-react";
+import ownerMarcus from "@/assets/owner-marcus.jpg";
+import petLucas from "@/assets/pet-lucas.jpg";
+import petBella from "@/assets/pet-bella.jpg";
+import petMax from "@/assets/pet-max.jpg";
+import petLuna from "@/assets/pet-luna.jpg";
+import petCharlie from "@/assets/pet-charlie.jpg";
 
 export default function MyPage() {
   // Mock data - in a real app this would come from a database
@@ -25,7 +31,7 @@ export default function MyPage() {
       gender: "Male",
       age: "2 years",
       coordinates: { lat: 54.97158, lng: 73.38318 },
-      image: "https://images.unsplash.com/photo-1633722715463-d30f4f325e24?w=400&h=400&fit=crop",
+      image: petLucas,
       petlist: 32,
     },
     {
@@ -36,7 +42,7 @@ export default function MyPage() {
       gender: "Female",
       age: "3 years",
       coordinates: { lat: 54.97200, lng: 73.38400 },
-      image: "https://images.unsplash.com/photo-1574158622682-e40e69881006?w=400&h=400&fit=crop",
+      image: petBella,
       petlist: 45,
     },
     {
@@ -47,7 +53,7 @@ export default function MyPage() {
       gender: "Male",
       age: "4 years",
       coordinates: { lat: 54.97100, lng: 73.38250 },
-      image: "https://images.unsplash.com/photo-1568572933382-74d440642117?w=400&h=400&fit=crop",
+      image: petMax,
       petlist: 28,
     },
     {
@@ -58,7 +64,7 @@ export default function MyPage() {
       gender: "Female",
       age: "1 year",
       coordinates: { lat: 54.97180, lng: 73.38350 },
-      image: "https://images.unsplash.com/photo-1513360371669-4adf3dd7dff8?w=400&h=400&fit=crop",
+      image: petLuna,
       petlist: 52,
     },
     {
@@ -69,7 +75,7 @@ export default function MyPage() {
       gender: "Male",
       age: "5 years",
       coordinates: { lat: 54.97140, lng: 73.38280 },
-      image: "https://images.unsplash.com/photo-1633853549958-e1ce92d0e0b0?w=400&h=400&fit=crop",
+      image: petCharlie,
       petlist: 38,
     },
   ];
@@ -83,7 +89,7 @@ export default function MyPage() {
             <Card className="p-6 shadow-medium animate-fade-in">
               <div className="relative mb-6">
                 <img
-                  src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=400&h=400&fit=crop"
+                  src={ownerMarcus}
                   alt={user.name}
                   className="w-full aspect-square object-cover rounded-xl"
                 />
