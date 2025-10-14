@@ -2,6 +2,12 @@ import { Card } from "@/components/ui/card";
 import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar";
 import { Button } from "@/components/ui/button";
 import { Heart, MessageCircle, Share2, Bookmark } from "lucide-react";
+import userMasum from "@/assets/user-masum.jpg";
+import userJason from "@/assets/user-jason.jpg";
+import userSarah from "@/assets/user-sarah.jpg";
+import newsPost1 from "@/assets/news-post-1.jpg";
+import newsPost2 from "@/assets/news-post-2.jpg";
+import newsPost3 from "@/assets/news-post-3.jpg";
 
 export default function News() {
   const posts = [
@@ -9,10 +15,10 @@ export default function News() {
       id: 1,
       author: {
         name: "Masum Rana",
-        avatar: "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=100&h=100&fit=crop",
+        avatar: userMasum,
         timeAgo: "2 minutes ago",
       },
-      image: "https://images.unsplash.com/photo-1548199973-03cce0bbc87b?w=800&h=600&fit=crop",
+      image: newsPost1,
       likes: 128000,
       comments: 483,
       shares: 14,
@@ -21,10 +27,10 @@ export default function News() {
       id: 2,
       author: {
         name: "Jason Borne",
-        avatar: "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=100&h=100&fit=crop",
+        avatar: userJason,
         timeAgo: "5 minutes ago",
       },
-      image: "https://images.unsplash.com/photo-1514888286974-6c03e2ca1dba?w=800&h=600&fit=crop",
+      image: newsPost2,
       likes: 128000,
       comments: 483,
       shares: 14,
@@ -33,10 +39,10 @@ export default function News() {
       id: 3,
       author: {
         name: "Sarah Miller",
-        avatar: "https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=100&h=100&fit=crop",
+        avatar: userSarah,
         timeAgo: "15 minutes ago",
       },
-      image: "https://images.unsplash.com/photo-1583511655857-d19b40a7a54e?w=800&h=600&fit=crop",
+      image: newsPost3,
       likes: 95000,
       comments: 342,
       shares: 28,
