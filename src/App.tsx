@@ -7,6 +7,15 @@ import Navigation from "@/components/Navigation";
 import Home from "./pages/Home";
 import MyPage from "./pages/MyPage";
 import News from "./pages/News";
+import Messages from "./pages/Messages";
+import Friends from "./pages/Friends";
+import Photos from "./pages/Photos";
+import Videos from "./pages/Videos";
+import Blog from "./pages/Blog";
+import Shop from "./pages/Shop";
+import Places from "./pages/Places";
+import Settings from "./pages/Settings";
+import Support from "./pages/Support";
 import NotFound from "./pages/NotFound";
 
 const queryClient = new QueryClient();
@@ -24,15 +33,15 @@ const App = () => (
               <Route path="/" element={<Home />} />
               <Route path="/my-page" element={<MyPage />} />
               <Route path="/news" element={<News />} />
-              <Route path="/messages" element={<ComingSoon page="Messages" />} />
-              <Route path="/friends" element={<ComingSoon page="Friends" />} />
-              <Route path="/photos" element={<ComingSoon page="Photos" />} />
-              <Route path="/videos" element={<ComingSoon page="Videos" />} />
-              <Route path="/blog" element={<ComingSoon page="Blog" />} />
-              <Route path="/shop" element={<ComingSoon page="Shop" />} />
-              <Route path="/places" element={<ComingSoon page="Places" />} />
-              <Route path="/settings" element={<ComingSoon page="Settings" />} />
-              <Route path="/support" element={<ComingSoon page="Support" />} />
+              <Route path="/messages" element={<Messages />} />
+              <Route path="/friends" element={<Friends />} />
+              <Route path="/photos" element={<Photos />} />
+              <Route path="/videos" element={<Videos />} />
+              <Route path="/blog" element={<Blog />} />
+              <Route path="/shop" element={<Shop />} />
+              <Route path="/places" element={<Places />} />
+              <Route path="/settings" element={<Settings />} />
+              <Route path="/support" element={<Support />} />
               <Route path="*" element={<NotFound />} />
             </Routes>
           </main>
@@ -42,18 +51,5 @@ const App = () => (
   </QueryClientProvider>
 );
 
-// Placeholder component for pages not yet implemented
-function ComingSoon({ page }: { page: string }) {
-  return (
-    <div className="flex min-h-[60vh] items-center justify-center bg-background">
-      <div className="text-center animate-fade-in">
-        <h1 className="mb-4 text-4xl font-bold bg-gradient-primary bg-clip-text text-transparent">
-          {page}
-        </h1>
-        <p className="text-xl text-muted-foreground">Coming Soon!</p>
-      </div>
-    </div>
-  );
-}
 
 export default App;
