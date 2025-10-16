@@ -4,6 +4,15 @@ import { Input } from "@/components/ui/input";
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs";
 import { Search, Upload, Heart, MessageCircle, Share2, Grid3x3, List } from "lucide-react";
 import { useState } from "react";
+import albumCover1 from "@/assets/photo-album-1.jpg";
+import albumCover2 from "@/assets/photo-album-2.jpg";
+import albumCover3 from "@/assets/photo-album-3.jpg";
+import photo1 from "@/assets/photo-1.jpg";
+import photo2 from "@/assets/photo-2.jpg";
+import photo3 from "@/assets/photo-3.jpg";
+import photo4 from "@/assets/photo-4.jpg";
+import photo5 from "@/assets/photo-5.jpg";
+import photo6 from "@/assets/photo-6.jpg";
 
 export default function Photos() {
   const [viewMode, setViewMode] = useState<"grid" | "list">("grid");
@@ -13,61 +22,61 @@ export default function Photos() {
       id: 1,
       title: "Summer Adventures",
       photoCount: 24,
-      cover: "https://images.unsplash.com/photo-1543466835-00a7907e9de1?w=400&h=400&fit=crop",
+      cover: albumCover1,
     },
     {
       id: 2,
       title: "Training Sessions",
       photoCount: 15,
-      cover: "https://images.unsplash.com/photo-1558788353-f76d92427f16?w=400&h=400&fit=crop",
+      cover: albumCover2,
     },
     {
       id: 3,
       title: "Best Moments",
       photoCount: 42,
-      cover: "https://images.unsplash.com/photo-1601758228041-f3b2795255f1?w=400&h=400&fit=crop",
+      cover: albumCover3,
     },
   ];
 
   const recentPhotos = [
     {
       id: 1,
-      url: "https://images.unsplash.com/photo-1537151608828-ea2b11777ee8?w=400&h=400&fit=crop",
+      url: photo1,
       likes: 24,
       comments: 5,
       caption: "Beautiful day at the park!",
     },
     {
       id: 2,
-      url: "https://images.unsplash.com/photo-1517849845537-4d257902454a?w=400&h=400&fit=crop",
+      url: photo2,
       likes: 32,
       comments: 8,
       caption: "My best friend ❤️",
     },
     {
       id: 3,
-      url: "https://images.unsplash.com/photo-1583337130417-3346a1be7dee?w=400&h=400&fit=crop",
+      url: photo3,
       likes: 18,
       comments: 3,
       caption: "Playing fetch",
     },
     {
       id: 4,
-      url: "https://images.unsplash.com/photo-1530281700549-e82e7bf110d6?w=400&h=400&fit=crop",
+      url: photo4,
       likes: 45,
       comments: 12,
       caption: "Nap time 😴",
     },
     {
       id: 5,
-      url: "https://images.unsplash.com/photo-1514984879728-be0aff75a6e8?w=400&h=400&fit=crop",
+      url: photo5,
       likes: 27,
       comments: 6,
       caption: "Ready for adventure!",
     },
     {
       id: 6,
-      url: "https://images.unsplash.com/photo-1587300003388-59208cc962cb?w=400&h=400&fit=crop",
+      url: photo6,
       likes: 39,
       comments: 9,
       caption: "Happy pup!",

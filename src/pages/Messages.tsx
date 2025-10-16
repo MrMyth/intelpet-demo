@@ -4,6 +4,9 @@ import { Button } from "@/components/ui/button";
 import { Avatar, AvatarImage, AvatarFallback } from "@/components/ui/avatar";
 import { Search, Send, MoreVertical } from "lucide-react";
 import { useState } from "react";
+import chatSarah from "@/assets/chat-sarah.jpg";
+import chatMike from "@/assets/chat-mike.jpg";
+import chatEmma from "@/assets/chat-emma.jpg";
 
 export default function Messages() {
   const [selectedChat, setSelectedChat] = useState(0);
@@ -12,7 +15,7 @@ export default function Messages() {
     {
       id: 1,
       name: "Sarah Johnson",
-      avatar: "https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=150&h=150&fit=crop",
+      avatar: chatSarah,
       lastMessage: "Thanks for the pet care tips!",
       time: "10:30 AM",
       unread: 2,
@@ -20,7 +23,7 @@ export default function Messages() {
     {
       id: 2,
       name: "Mike Chen",
-      avatar: "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=150&h=150&fit=crop",
+      avatar: chatMike,
       lastMessage: "My dog loved the park you recommended",
       time: "Yesterday",
       unread: 0,
@@ -28,7 +31,7 @@ export default function Messages() {
     {
       id: 3,
       name: "Emma Wilson",
-      avatar: "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?w=150&h=150&fit=crop",
+      avatar: chatEmma,
       lastMessage: "See you at the meetup!",
       time: "2 days ago",
       unread: 1,

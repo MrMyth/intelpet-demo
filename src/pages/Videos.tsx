@@ -2,13 +2,19 @@ import { Card } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
 import { Badge } from "@/components/ui/badge";
 import { Play, Upload, Eye, ThumbsUp, Share2, Clock } from "lucide-react";
+import videoThumb1 from "@/assets/video-thumb-1.jpg";
+import videoThumb2 from "@/assets/video-thumb-2.jpg";
+import videoThumb3 from "@/assets/video-thumb-3.jpg";
+import videoThumb4 from "@/assets/video-thumb-4.jpg";
+import videoThumb5 from "@/assets/video-thumb-5.jpg";
+import videoThumb6 from "@/assets/video-thumb-6.jpg";
 
 export default function Videos() {
   const videos = [
     {
       id: 1,
       title: "First Day at Home",
-      thumbnail: "https://images.unsplash.com/photo-1581888227599-779811939961?w=600&h=400&fit=crop",
+      thumbnail: videoThumb1,
       duration: "2:45",
       views: 1240,
       likes: 89,
@@ -17,7 +23,7 @@ export default function Videos() {
     {
       id: 2,
       title: "Learning New Tricks",
-      thumbnail: "https://images.unsplash.com/photo-1548199973-03cce0bbc87b?w=600&h=400&fit=crop",
+      thumbnail: videoThumb2,
       duration: "5:12",
       views: 2150,
       likes: 156,
@@ -26,7 +32,7 @@ export default function Videos() {
     {
       id: 3,
       title: "Beach Day Fun",
-      thumbnail: "https://images.unsplash.com/photo-1561037404-61cd46aa615b?w=600&h=400&fit=crop",
+      thumbnail: videoThumb3,
       duration: "3:30",
       views: 3420,
       likes: 234,
@@ -35,7 +41,7 @@ export default function Videos() {
     {
       id: 4,
       title: "Playing with Friends",
-      thumbnail: "https://images.unsplash.com/photo-1518791841217-8f162f1e1131?w=600&h=400&fit=crop",
+      thumbnail: videoThumb4,
       duration: "4:15",
       views: 1890,
       likes: 142,
@@ -44,7 +50,7 @@ export default function Videos() {
     {
       id: 5,
       title: "Morning Routine",
-      thumbnail: "https://images.unsplash.com/photo-1507146426996-ef05306b995a?w=600&h=400&fit=crop",
+      thumbnail: videoThumb5,
       duration: "6:20",
       views: 4250,
       likes: 312,
@@ -53,7 +59,7 @@ export default function Videos() {
     {
       id: 6,
       title: "Agility Training",
-      thumbnail: "https://images.unsplash.com/photo-1477884213360-7e9d7dcc1e48?w=600&h=400&fit=crop",
+      thumbnail: videoThumb6,
       duration: "8:45",
       views: 5670,
       likes: 423,

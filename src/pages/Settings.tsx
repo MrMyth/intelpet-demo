@@ -7,6 +7,7 @@ import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs";
 import { Separator } from "@/components/ui/separator";
 import { Avatar, AvatarImage, AvatarFallback } from "@/components/ui/avatar";
 import { User, Bell, Shield, Globe, CreditCard, HelpCircle } from "lucide-react";
+import ownerMarcus from "@/assets/owner-marcus.jpg";
 
 export default function Settings() {
   return (
@@ -42,7 +43,7 @@ export default function Settings() {
             
             <div className="flex items-center gap-6 mb-6">
               <Avatar className="w-24 h-24">
-                <AvatarImage src="https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=150&h=150&fit=crop" />
+                <AvatarImage src={ownerMarcus} />
                 <AvatarFallback>MB</AvatarFallback>
               </Avatar>
               <div>

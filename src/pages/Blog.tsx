@@ -3,6 +3,10 @@ import { Button } from "@/components/ui/button";
 import { Badge } from "@/components/ui/badge";
 import { Avatar, AvatarImage, AvatarFallback } from "@/components/ui/avatar";
 import { PenSquare, Calendar, Clock, Heart, MessageCircle } from "lucide-react";
+import blogTraining from "@/assets/blog-training.jpg";
+import blogParks from "@/assets/blog-parks.jpg";
+import blogLanguage from "@/assets/blog-language.jpg";
+import ownerMarcus from "@/assets/owner-marcus.jpg";
 
 export default function Blog() {
   const posts = [
@@ -10,9 +14,9 @@ export default function Blog() {
       id: 1,
       title: "10 Tips for Training Your Puppy",
       excerpt: "Discover the essential techniques to train your new puppy effectively and create a strong bond from the start.",
-      image: "https://images.unsplash.com/photo-1548199973-03cce0bbc87b?w=800&h=500&fit=crop",
+      image: blogTraining,
       author: "Marcus Bell",
-      avatar: "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=100&h=100&fit=crop",
+      avatar: ownerMarcus,
       date: "March 15, 2024",
       readTime: "5 min read",
       likes: 45,
@@ -23,9 +27,9 @@ export default function Blog() {
       id: 2,
       title: "Best Pet-Friendly Parks in the City",
       excerpt: "A comprehensive guide to the most amazing parks where you and your furry friend can enjoy quality time together.",
-      image: "https://images.unsplash.com/photo-1561037404-61cd46aa615b?w=800&h=500&fit=crop",
+      image: blogParks,
       author: "Marcus Bell",
-      avatar: "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=100&h=100&fit=crop",
+      avatar: ownerMarcus,
       date: "March 10, 2024",
       readTime: "8 min read",
       likes: 67,
@@ -36,9 +40,9 @@ export default function Blog() {
       id: 3,
       title: "Understanding Your Pet's Body Language",
       excerpt: "Learn to read the subtle signs and signals that your pet uses to communicate their feelings and needs.",
-      image: "https://images.unsplash.com/photo-1514984879728-be0aff75a6e8?w=800&h=500&fit=crop",
+      image: blogLanguage,
       author: "Marcus Bell",
-      avatar: "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=100&h=100&fit=crop",
+      avatar: ownerMarcus,
       date: "March 5, 2024",
       readTime: "6 min read",
       likes: 89,

@@ -4,6 +4,12 @@ import { Badge } from "@/components/ui/badge";
 import { Input } from "@/components/ui/input";
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs";
 import { Search, ShoppingCart, Star, Filter } from "lucide-react";
+import productFood from "@/assets/product-food.jpg";
+import productToys from "@/assets/product-toys.jpg";
+import productBed from "@/assets/product-bed.jpg";
+import productCollar from "@/assets/product-collar.jpg";
+import productGrooming from "@/assets/product-grooming.jpg";
+import productCarrier from "@/assets/product-carrier.jpg";
 
 export default function Shop() {
   const products = [
@@ -13,7 +19,7 @@ export default function Shop() {
       price: 45.99,
       rating: 4.8,
       reviews: 156,
-      image: "https://images.unsplash.com/photo-1589924691995-400dc9ecc119?w=400&h=400&fit=crop",
+      image: productFood,
       category: "Food",
       inStock: true,
     },
@@ -23,7 +29,7 @@ export default function Shop() {
       price: 29.99,
       rating: 4.6,
       reviews: 89,
-      image: "https://images.unsplash.com/photo-1535294435445-d7249524ef2e?w=400&h=400&fit=crop",
+      image: productToys,
       category: "Toys",
       inStock: true,
     },
@@ -33,7 +39,7 @@ export default function Shop() {
       price: 79.99,
       rating: 4.9,
       reviews: 234,
-      image: "https://images.unsplash.com/photo-1616794031723-1e28a6d17b48?w=400&h=400&fit=crop",
+      image: productBed,
       category: "Accessories",
       inStock: true,
     },
@@ -43,7 +49,7 @@ export default function Shop() {
       price: 149.99,
       rating: 4.7,
       reviews: 312,
-      image: "https://images.unsplash.com/photo-1611003228941-98852ba62227?w=400&h=400&fit=crop",
+      image: productCollar,
       category: "Technology",
       inStock: true,
     },
@@ -53,7 +59,7 @@ export default function Shop() {
       price: 59.99,
       rating: 4.5,
       reviews: 178,
-      image: "https://images.unsplash.com/photo-1601758228041-f3b2795255f1?w=400&h=400&fit=crop",
+      image: productGrooming,
       category: "Grooming",
       inStock: false,
     },
@@ -63,7 +69,7 @@ export default function Shop() {
       price: 89.99,
       rating: 4.8,
       reviews: 145,
-      image: "https://images.unsplash.com/photo-1545249390-6bdfa286032f?w=400&h=400&fit=crop",
+      image: productCarrier,
       category: "Accessories",
       inStock: true,
     },

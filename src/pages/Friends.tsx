@@ -4,6 +4,11 @@ import { Avatar, AvatarImage, AvatarFallback } from "@/components/ui/avatar";
 import { Input } from "@/components/ui/input";
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs";
 import { Search, UserPlus, MessageSquare, MapPin } from "lucide-react";
+import friendAlex from "@/assets/friend-alex.jpg";
+import friendSophie from "@/assets/friend-sophie.jpg";
+import friendDaniel from "@/assets/friend-daniel.jpg";
+import friendMaria from "@/assets/friend-maria.jpg";
+import friendJames from "@/assets/friend-james.jpg";
 
 export default function Friends() {
   const friends = [
@@ -12,7 +17,7 @@ export default function Friends() {
       name: "Alex Rivera",
       location: "New York, USA",
       pets: 2,
-      avatar: "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=150&h=150&fit=crop",
+      avatar: friendAlex,
       mutualFriends: 5,
     },
     {
@@ -20,7 +25,7 @@ export default function Friends() {
       name: "Sophie Chen",
       location: "London, UK",
       pets: 1,
-      avatar: "https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=150&h=150&fit=crop",
+      avatar: friendSophie,
       mutualFriends: 3,
     },
     {
@@ -28,7 +33,7 @@ export default function Friends() {
       name: "Daniel Park",
       location: "Seoul, South Korea",
       pets: 3,
-      avatar: "https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?w=150&h=150&fit=crop",
+      avatar: friendDaniel,
       mutualFriends: 8,
     },
   ];
@@ -39,7 +44,7 @@ export default function Friends() {
       name: "Maria Garcia",
       location: "Madrid, Spain",
       pets: 1,
-      avatar: "https://images.unsplash.com/photo-1487412720507-e7ab37603c6f?w=150&h=150&fit=crop",
+      avatar: friendMaria,
       mutualFriends: 2,
     },
     {
@@ -47,7 +52,7 @@ export default function Friends() {
       name: "James Wilson",
       location: "Sydney, Australia",
       pets: 2,
-      avatar: "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=150&h=150&fit=crop",
+      avatar: friendJames,
       mutualFriends: 4,
     },
   ];

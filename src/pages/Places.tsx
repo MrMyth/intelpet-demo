@@ -4,6 +4,12 @@ import { Badge } from "@/components/ui/badge";
 import { Input } from "@/components/ui/input";
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs";
 import { MapPin, Search, Navigation, Star, Clock } from "lucide-react";
+import placePark from "@/assets/place-park.jpg";
+import placeVet from "@/assets/place-vet.jpg";
+import placeGrooming from "@/assets/place-grooming.jpg";
+import placeTrail from "@/assets/place-trail.jpg";
+import placeStore from "@/assets/place-store.jpg";
+import placeCafe from "@/assets/place-cafe.jpg";
 
 export default function Places() {
   const places = [
@@ -15,7 +21,7 @@ export default function Places() {
       distance: "0.5 km",
       rating: 4.8,
       reviews: 245,
-      image: "https://images.unsplash.com/photo-1548199973-03cce0bbc87b?w=600&h=400&fit=crop",
+      image: placePark,
       hours: "6:00 AM - 10:00 PM",
       features: ["Off-leash area", "Water fountain", "Agility equipment"],
     },
@@ -27,7 +33,7 @@ export default function Places() {
       distance: "1.2 km",
       rating: 4.9,
       reviews: 189,
-      image: "https://images.unsplash.com/photo-1516571748831-5d81767b788d?w=600&h=400&fit=crop",
+      image: placeVet,
       hours: "8:00 AM - 8:00 PM",
       features: ["Emergency care", "Grooming", "Dental services"],
     },
@@ -39,7 +45,7 @@ export default function Places() {
       distance: "2.0 km",
       rating: 4.7,
       reviews: 156,
-      image: "https://images.unsplash.com/photo-1601758228041-f3b2795255f1?w=600&h=400&fit=crop",
+      image: placeGrooming,
       hours: "9:00 AM - 7:00 PM",
       features: ["Professional grooming", "Spa treatments", "Nail trimming"],
     },
@@ -51,7 +57,7 @@ export default function Places() {
       distance: "3.5 km",
       rating: 4.6,
       reviews: 312,
-      image: "https://images.unsplash.com/photo-1561037404-61cd46aa615b?w=600&h=400&fit=crop",
+      image: placeTrail,
       hours: "Open 24/7",
       features: ["Scenic views", "Dog-friendly", "Picnic areas"],
     },
@@ -63,7 +69,7 @@ export default function Places() {
       distance: "1.8 km",
       rating: 4.5,
       reviews: 198,
-      image: "https://images.unsplash.com/photo-1589924691995-400dc9ecc119?w=600&h=400&fit=crop",
+      image: placeStore,
       hours: "10:00 AM - 9:00 PM",
       features: ["Wide selection", "Expert advice", "Delivery available"],
     },
@@ -75,7 +81,7 @@ export default function Places() {
       distance: "4.2 km",
       rating: 4.8,
       reviews: 267,
-      image: "https://images.unsplash.com/photo-1554118811-1e0d58224f24?w=600&h=400&fit=crop",
+      image: placeCafe,
       hours: "7:00 AM - 6:00 PM",
       features: ["Pet-friendly dining", "Outdoor seating", "Special pet menu"],
     },
