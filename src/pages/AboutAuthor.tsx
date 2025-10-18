@@ -26,15 +26,13 @@ export default function AboutAuthor() {
                 Dmitry Starchikov
               </CardTitle>
               <CardDescription className="text-lg">
-                Founder & Lead Developer of IntelPet
+                Author of the idea
               </CardDescription>
             </CardHeader>
             <CardContent className="space-y-6">
               <div className="prose prose-neutral dark:prose-invert max-w-none">
                 <p className="text-center text-muted-foreground leading-relaxed">
-                  Passionate about creating innovative solutions that bring pet owners together. 
-                  With over 8 years of experience in web development and a lifelong love for animals,
-                  I created IntelPet to combine technology with the joy of pet ownership.
+                  This is just a website layout, I wanted to show the world my idea. Now I am in a difficult financial situation - I am unemployed and disabled. I can't walk on my own. The Email button is working: I am ready to sell the idea to you if such an offer comes from you.
                 </p>
               </div>
 
