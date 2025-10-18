@@ -67,16 +67,6 @@ export default function AboutAuthor() {
                 IntelPet was born from a simple idea: pet owners need a dedicated space to connect,
                 share experiences, and support each other in their pet parenting journey.
               </p>
-              <p>
-                After adopting my rescue dog Max in 2020, I realized how valuable community support
-                was in navigating the challenges and joys of pet ownership. This inspired me to
-                create a platform that brings together pet lovers from all walks of life.
-              </p>
-              <p>
-                Today, IntelPet serves thousands of pet owners worldwide, helping them find friends,
-                share memories, discover pet-friendly places, and access valuable resources for
-                their beloved companions.
-              </p>
             </CardContent>
           </Card>
         </div>
