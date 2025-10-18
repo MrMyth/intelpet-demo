@@ -2,7 +2,7 @@ import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/com
 import { Button } from "@/components/ui/button";
 import { Badge } from "@/components/ui/badge";
 import { Mail, Heart } from "lucide-react";
-import authorImage from "@/assets/user-sarah.jpg";
+import authorImage from "@/assets/me.jpg";
 
 export default function AboutAuthor() {
   return (
@@ -23,7 +23,7 @@ export default function AboutAuthor() {
                 </div>
               </div>
               <CardTitle className="text-4xl mb-2 bg-gradient-primary bg-clip-text text-transparent">
-                Sarah Johnson
+                Dmitry Starchikov
               </CardTitle>
               <CardDescription className="text-lg">
                 Founder & Lead Developer of IntelPet
