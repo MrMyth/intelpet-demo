@@ -12,6 +12,7 @@ import {
   MapPin,
   Settings,
   HelpCircle,
+  User,
   PawPrint,
   Menu,
   X
@@ -30,6 +31,7 @@ const navItems = [
   { name: "Places", path: "/places", icon: MapPin },
   { name: "Settings", path: "/settings", icon: Settings },
   { name: "Support", path: "/support", icon: HelpCircle },
+  { name: "About Author", path: "/about-author", icon: User },
 ];
 
 export default function Navigation() {
