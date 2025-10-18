@@ -1,7 +1,7 @@
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
 import { Badge } from "@/components/ui/badge";
-import { Mail, Github, Linkedin, Twitter, Globe, Heart } from "lucide-react";
+import { Mail, Heart } from "lucide-react";
 import authorImage from "@/assets/user-sarah.jpg";
 
 export default function AboutAuthor() {
@@ -46,25 +46,16 @@ export default function AboutAuthor() {
               </div>
 
               <div className="flex flex-wrap justify-center gap-3 pt-4">
-                <Button variant="outline" size="sm" className="gap-2">
-                  <Mail className="h-4 w-4" />
-                  Email
-                </Button>
-                <Button variant="outline" size="sm" className="gap-2">
-                  <Github className="h-4 w-4" />
-                  GitHub
-                </Button>
-                <Button variant="outline" size="sm" className="gap-2">
-                  <Linkedin className="h-4 w-4" />
-                  LinkedIn
-                </Button>
-                <Button variant="outline" size="sm" className="gap-2">
-                  <Twitter className="h-4 w-4" />
-                  Twitter
-                </Button>
-                <Button variant="outline" size="sm" className="gap-2">
-                  <Globe className="h-4 w-4" />
-                  Website
+                <Button 
+                  variant="outline" 
+                  size="sm" 
+                  className="gap-2"
+                  asChild
+                >
+                  <a href="mailto:dmstarchikov@outlook.com">
+                    <Mail className="h-4 w-4" />
+                    Email
+                  </a>
                 </Button>
               </div>
             </CardContent>
@@ -72,7 +63,7 @@ export default function AboutAuthor() {
         </div>
 
         {/* Story Section */}
-        <div className="max-w-4xl mx-auto grid md:grid-cols-2 gap-6 mb-12">
+        <div className="max-w-4xl mx-auto mb-12">
           <Card className="shadow-soft">
             <CardHeader>
               <CardTitle className="flex items-center gap-2">
@@ -95,39 +86,6 @@ export default function AboutAuthor() {
                 share memories, discover pet-friendly places, and access valuable resources for
                 their beloved companions.
               </p>
-            </CardContent>
-          </Card>
-
-          <Card className="shadow-soft">
-            <CardHeader>
-              <CardTitle>Technology Stack</CardTitle>
-            </CardHeader>
-            <CardContent className="space-y-4">
-              <div>
-                <h4 className="font-semibold mb-2">Frontend</h4>
-                <div className="flex flex-wrap gap-2">
-                  <Badge>React</Badge>
-                  <Badge>TypeScript</Badge>
-                  <Badge>Tailwind CSS</Badge>
-                  <Badge>Vite</Badge>
-                </div>
-              </div>
-              <div>
-                <h4 className="font-semibold mb-2">UI Components</h4>
-                <div className="flex flex-wrap gap-2">
-                  <Badge>Radix UI</Badge>
-                  <Badge>Shadcn/ui</Badge>
-                  <Badge>Lucide Icons</Badge>
-                </div>
-              </div>
-              <div>
-                <h4 className="font-semibold mb-2">Tools & Libraries</h4>
-                <div className="flex flex-wrap gap-2">
-                  <Badge>React Router</Badge>
-                  <Badge>React Query</Badge>
-                  <Badge>React Hook Form</Badge>
-                </div>
-              </div>
             </CardContent>
           </Card>
         </div>
