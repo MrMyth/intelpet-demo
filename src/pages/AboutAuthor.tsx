@@ -30,13 +30,6 @@ export default function AboutAuthor() {
               </CardDescription>
             </CardHeader>
             <CardContent className="space-y-6">
-              <div className="flex flex-wrap justify-center gap-2 mb-6">
-                <Badge variant="secondary">Full Stack Developer</Badge>
-                <Badge variant="secondary">Pet Enthusiast</Badge>
-                <Badge variant="secondary">Open Source Contributor</Badge>
-                <Badge variant="secondary">AI/ML Expert</Badge>
-              </div>
-
               <div className="prose prose-neutral dark:prose-invert max-w-none">
                 <p className="text-center text-muted-foreground leading-relaxed">
                   Passionate about creating innovative solutions that bring pet owners together. 
